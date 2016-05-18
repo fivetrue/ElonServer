@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+	<!-- 메인 -->
+	<!-- <servlet>
+		<servlet-name>main</servlet-name>
+		<jsp-file>/index.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>main</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping> -->
+	
+	<!-- Drip 관련 Servlet -->
+	<!-- <servlet>
+		<servlet-name>getDrip</servlet-name>
+		<jsp-file>/drip/ReadDrip.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>getDrip</servlet-name>
+		<url-pattern>/drip/get</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>putDrip</servlet-name>
+		<jsp-file>/drip/WriteDrip.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>putDrip</servlet-name>
+		<url-pattern>/drip/put</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>likeDrip</servlet-name>
+		<jsp-file>/drip/LikeDrip.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>likeDrip</servlet-name>
+		<url-pattern>/drip/like</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>checkLikeDrip</servlet-name>
+		<jsp-file>/drip/CheckLike.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>checkLikeDrip</servlet-name>
+		<url-pattern>/drip/check</url-pattern>
+	</servlet-mapping>
+	
+	Reply 관련 Servlet
+	<servlet>
+		<servlet-name>getReply</servlet-name>
+		<jsp-file>/reply/ReadReply.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>getReply</servlet-name>
+		<url-pattern>/reply/get</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>putReply</servlet-name>
+		<jsp-file>/reply/WriteReply.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>putReply</servlet-name>
+		<url-pattern>/reply/put</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>deleteReply</servlet-name>
+		<jsp-file>/reply/DeleteReply.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>deleteReply</servlet-name>
+		<url-pattern>/reply/delete</url-pattern>
+	</servlet-mapping>
+	
+	
+	User 관련 Servlet
+	<servlet>
+		<servlet-name>registerUser</servlet-name>
+		<jsp-file>/user/RegisterUser.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>registerUser</servlet-name>
+		<url-pattern>/user/register</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>registerGcm</servlet-name>
+		<jsp-file>/user/RegisterGCM.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>registerGcm</servlet-name>
+		<url-pattern>/user/registerGcm</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>loginUser</servlet-name>
+		<jsp-file>/user/LoginUser.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>loginUser</servlet-name>
+		<url-pattern>/user/login</url-pattern>
+	</servlet-mapping>
+	
+	Config
+	
+	<servlet>
+		<servlet-name>appConfig</servlet-name>
+		<jsp-file>/config/AppConfig.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>appConfig</servlet-name>
+		<url-pattern>/config/app</url-pattern>
+	</servlet-mapping> -->
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>index</servlet-name>
+		<jsp-file>/index.jsp</jsp-file>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>index</servlet-name>
+		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 설정 -->
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.css</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.js</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.gif</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.jpg</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.png</url-pattern>
+    </servlet-mapping>
+
+</web-app>  
