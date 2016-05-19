@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.elontech.web.entry.CompanyInfo;
+import com.elontech.web.entry.Header;
 import com.elontech.web.entry.IntroduceContents;
 import com.elontech.web.entry.Skills;
 import com.elontech.web.entry.TopContents;
@@ -130,6 +131,12 @@ public class WebTextObtainManager {
 		info.setTelephon(new SimpleMessage("Tel.", "032-328-4196"));
 		info.setFax(new SimpleMessage("Fax.", "032-328-4197"));
 		return info;
+	}
+	
+	public Header getHeader(){
+		Header header = new Header();
+		header.setWebPageName("(주)엘론텍");
+		return header;
 	}
 	
 

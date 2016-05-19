@@ -9,7 +9,7 @@
     <%@include file="top.jsp" %>
     <%@include file="introduce.jsp" %>
     <%@include file="skills.jsp" %>
-    <section class="hero-strip section-padding">
+    <!-- <section class="hero-strip section-padding">
         <div class="container">
             <div class="col-md-12 text-center">
                 <h2>
@@ -155,7 +155,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <%@include file="bottom.jsp" %>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
