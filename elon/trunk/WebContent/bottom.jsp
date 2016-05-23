@@ -25,13 +25,7 @@
                             <li><a href="http://tympanus.net/codrops/">Codrops</a></li>
                             <li><a href="http://www.peterfinlan.com/">Peter Finlan</a></li>
                         </ul> -->
-                        
-                        <p align="right"><a href="http://tympanus.net/codrops/licensing/">Licence</a> | Crafted with <span class="fa fa-heart pulse2"></span> by <a href="http://www.peterfinlan.com/">Peter Finlan</a>.</p>
                     </div>
-                <!-- <div class="social-share">
-                    <p>Share Sedna with your friends</p>
-                    <a href="https://twitter.com/peterfinlan" class="twitter-share"><i class="fa fa-twitter"></i></a> <a href="#" class="facebook-share"><i class="fa fa-facebook"></i></a>
-                </div> -->
             </div>
         </div>
     </footer>

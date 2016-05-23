@@ -18,7 +18,7 @@
                             <ul class="primary-nav">
                                 <li><a href="#introduce">회사소개</a></li>
                                 <li><a href="#skills">보유기술</a></li>
-                                <li><a href="#blog">주요제품소개</a></li>
+                                <li><a href="#products">주요제품소개</a></li>
                             </ul>
                            <!--  <ul class="member-actions">
                                 <li><a href="#download" class="login">Log in</a></li>
