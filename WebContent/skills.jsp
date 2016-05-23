@@ -12,7 +12,7 @@
 		<div class="row">
 			<div class="col-md-5">
 				<div class="feature-list">
-					<h3><%out.print(skills.getSkillMain().getTitle());%></h3>
+					<h2><%out.print(skills.getSkillMain().getTitle());%></h2>
 					<p><%out.print(skills.getSkillMain().getContent());%></p>
 					<div class="row">
 					<ul class="features-stack">

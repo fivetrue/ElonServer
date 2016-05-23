@@ -9,6 +9,7 @@
     <%@include file="top.jsp" %>
     <%@include file="introduce.jsp" %>
     <%@include file="skills.jsp" %>
+    <%@include file="products.jsp" %>
     <!-- <section class="hero-strip section-padding">
         <div class="container">
             <div class="col-md-12 text-center">
@@ -21,86 +22,7 @@
             </div>
         </div>
     </section>
-    <section class="blog-intro section-padding" id="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h3>Showcase your smashing product with Sedna</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
-                    <h5>EXCLUSIVE TO CODROPS</h5>
-                    <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-                <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
-                    <h5>SPREADING PIXELS AROUND THE WORLD</h5>
-                    <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="blog text-center">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <figure>
-                            <a href="img/blog-img-01.jpg" class="single_image">
-                                <div class="blog-img-wrap">
-                                    <div class="overlay">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                    <img src="img/blog-img-01.jpg" alt="Sedna blog image"/>
-                                </div>
-                            </a>
-                            <figcaption>
-                            <h2><a href="#" class="blog-category" data-toggle="tooltip" data-placement="top" data-original-title="See more posts">Product</a></h2>
-                            <p><a href="#" class="blog-post-title">Getting started with Sedna <i class="fa fa-angle-right"></i></a></p>
-                            </figcaption>
-                        </figure>
-                    </article>
-                </div>
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <figure>
-                            <a href="img/blog-img-02.jpg" class="single_image">
-                                <div class="blog-img-wrap">
-                                    <div class="overlay">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                    <img src="img/blog-img-02.jpg" alt="Sedna blog image"/>
-                                </div>
-                            </a>
-                            <figcaption>
-                            <h2><a href="#" class="blog-category" data-toggle="tooltip" data-placement="top" data-original-title="See more posts">Technology</a></h2>
-                            <p><a href="#" class="blog-post-title">Why IE8 support is deminishing <i class="fa fa-angle-right"></i></a></p>
-                            </figcaption>
-                        </figure>
-                    </article>
-                </div>
-                <div class="col-md-4">
-                    <article class="blog-post">
-                        <figure>
-                            <a href="img/blog-img-03.jpg" class="single_image">
-                                <div class="blog-img-wrap">
-                                    <div class="overlay">
-                                        <i class="fa fa-search"></i>
-                                    </div>
-                                    <img src="img/blog-img-03.jpg" class="single_image" alt="Sedna blog image"/>
-                                </div>
-                            </a>
-                            <figcaption>
-                            <h2><a href="#" class="blog-category" data-toggle="tooltip" data-placement="top" data-original-title="See more posts">Product</a></h2>
-                            <p><a href="#" class="blog-post-title">Sedna tutorial: How to begin your <i class="fa fa-angle-right"></i></a></p>
-                            </figcaption>
-                        </figure>
-                    </article>
-                </div>
-                <a href="#" class="btn btn-ghost btn-accent btn-small">More news</a>
-            </div>
-        </div>
-    </section>
+   
     <section class="testimonial-slider section-padding text-center">
         <div class="container">
             <div class="row">

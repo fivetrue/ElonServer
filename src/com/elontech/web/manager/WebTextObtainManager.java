@@ -6,6 +6,7 @@ import java.util.List;
 import com.elontech.web.entry.CompanyInfo;
 import com.elontech.web.entry.Header;
 import com.elontech.web.entry.IntroduceContents;
+import com.elontech.web.entry.ProductsInfo;
 import com.elontech.web.entry.Skills;
 import com.elontech.web.entry.TopContents;
 import com.elontech.web.vo.ImageItem;
@@ -27,7 +28,7 @@ public class WebTextObtainManager {
 	
 	public TopContents getTopContents(){
 		TopContents tct = new TopContents();
-		tct.setWebName("ELON-TECH");
+		tct.setWebName("(주)엘론텍");
 		tct.setTopMain(getTopMainMessage());
 		tct.setTopIntros(getTopIntroMessages());
 		return tct;
@@ -83,8 +84,8 @@ public class WebTextObtainManager {
 	
 	public MainMessage getTopMainMessage(){
 		MainMessage tmm = new MainMessage();
-		tmm.setTitle("Wellcome to ELON-TECH");
-		tmm.setContent("세상을 살아가는 사람들의 이야기");
+		tmm.setTitle("고객이 필요한 제품을 만드는 기업");
+		tmm.setContent("(주) 엘론텍");
 		tmm.setLinkName("카탈로그 다운로드");
 		tmm.setLink("http://naver.com");
 		return tmm;
@@ -137,6 +138,81 @@ public class WebTextObtainManager {
 		Header header = new Header();
 		header.setWebPageName("(주)엘론텍");
 		return header;
+	}
+	
+	
+	public ProductsInfo getProductsInfo(){
+		ProductsInfo info = new ProductsInfo();
+		
+		MainMessage mainMessage = new MainMessage();
+		mainMessage.setTitle("주요제품소개");
+		mainMessage.setLink("http://");
+		mainMessage.setLinkName("DETAIL");
+		info.setTitle(mainMessage);
+		
+		/**
+		 * Visiton
+		 */
+		MainMessage visionMain = new MainMessage();
+		visionMain.setTitle("VISION");
+		visionMain.setContent("주요 VISION<br>핸드폰 배터리 레이저 용접 두께 측정 비젼 시스템 / "
+				+ "LCD Grinder Align / "
+				+ "LCD Burr Checker / "
+				+ "LCD Seal 단선 검사 / "
+				+ "BGA Ball Attach / "
+				+ "반도체 칩 Lazer Marking 검사 / "
+				+ "ITO 필름 합착기 / "
+				+ "LED 외관검사 이물, 깨짐, 칩, 와이어 외");
+		info.getProducts().add(visionMain);
+		
+		/**
+		 * LED Head checker
+		 */
+		MainMessage ledcheckMain = new MainMessage();
+		ledcheckMain.setTitle("LED HEAT CHECKER CONTROLLER");
+		ledcheckMain.setContent("엘론의 독자적인 Speed 머신기술을 체택하여 제작되었으며" 
+				+ "귀사 제품의 불량률 감소 및 검사시간 단축, 제품의 신뢰성을 높여드리는 엘론의 핵심 제품입니다.");
+		info.getProducts().add(ledcheckMain);
+		
+		/**
+		 * LED Light
+		 */
+		MainMessage ledMain = new MainMessage();
+		ledMain.setTitle("LED LIGHT");
+		info.getProducts().add(ledMain);
+		
+		
+		/**
+		 * LED Light
+		 */
+		MainMessage lightControllerMain = new MainMessage();
+		lightControllerMain.setTitle("LED LIGHT CONTROLLER");
+		info.getProducts().add(lightControllerMain);
+		
+		
+		/**
+		 * Motor
+		 */
+		MainMessage motorMain = new MainMessage();
+		motorMain.setTitle("MOTOR");
+		motorMain.setContent("STM17 Series / " 
+		+ "STM23 Series / "
+				+ "STM24 Series"
+		);
+		info.getProducts().add(motorMain);
+		
+		
+		/**
+		 * Motor
+		 */
+		MainMessage smpsMain = new MainMessage();
+		smpsMain.setTitle("SMPS");
+		smpsMain.setContent("MF50N Series / " 
+				+ "MF100A Series"
+						+ "MF150A Series / " 
+						+ "MF320A Series"); 
+		info.getProducts().add(smpsMain);
+		return info;
 	}
 	
 
