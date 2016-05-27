@@ -1,66 +1,108 @@
 package com.elontech.web.entry;
 
-import com.elontech.web.vo.SimpleMessage;
+import com.fivetrue.db.DatabaseObject;
+import com.fivetrue.db.annotation.DisplayName;
 
-public class CompanyInfo {
-	private SimpleMessage companyName = null;
-	private SimpleMessage owner = null;
-	private SimpleMessage foundationDate = null;
-	private SimpleMessage category = null;
-	private SimpleMessage address = null;
-	private SimpleMessage companyId = null;
-	private SimpleMessage telephon = null;
-	private SimpleMessage fax = null;
-	public SimpleMessage getCompanyName() {
+public class CompanyInfo extends DatabaseObject{
+	
+	@DisplayName("법인명")
+	private String companyName = null;
+	@DisplayName("대표자")
+	private String owner = null;
+	@DisplayName("설립일")
+	private String foundationDate = null;
+	@DisplayName("사업분야")
+	private String category = null;
+	@DisplayName("사업장")
+	private String address = null;
+	@DisplayName("등록번호")
+	private String companyId = null;
+	@DisplayName("Tel.")
+	private String telephon = null;
+	@DisplayName("Fax.")
+	private String fax = null;
+	
+	
+	public String getCompanyName() {
 		return companyName;
 	}
-	public void setCompanyName(SimpleMessage companyName) {
+
+
+	public void setCompanyName(String companyName) {
 		this.companyName = companyName;
 	}
-	public SimpleMessage getOwner() {
+
+
+	public String getOwner() {
 		return owner;
 	}
-	public void setOwner(SimpleMessage owner) {
+
+
+	public void setOwner(String owner) {
 		this.owner = owner;
 	}
-	public SimpleMessage getFoundationDate() {
+
+
+	public String getFoundationDate() {
 		return foundationDate;
 	}
-	public void setFoundationDate(SimpleMessage foundationDate) {
+
+
+	public void setFoundationDate(String foundationDate) {
 		this.foundationDate = foundationDate;
 	}
-	public SimpleMessage getCategory() {
+
+
+	public String getCategory() {
 		return category;
 	}
-	public void setCategory(SimpleMessage category) {
+
+
+	public void setCategory(String category) {
 		this.category = category;
 	}
-	public SimpleMessage getAddress() {
+
+
+	public String getAddress() {
 		return address;
 	}
-	public void setAddress(SimpleMessage address) {
+
+
+	public void setAddress(String address) {
 		this.address = address;
 	}
-	
-	public SimpleMessage getCompanyId() {
+
+
+	public String getCompanyId() {
 		return companyId;
 	}
-	public void setCompanyId(SimpleMessage companyId) {
+
+
+	public void setCompanyId(String companyId) {
 		this.companyId = companyId;
 	}
-	
-	public SimpleMessage getTelephon() {
+
+
+	public String getTelephon() {
 		return telephon;
 	}
-	public void setTelephon(SimpleMessage telephon) {
+
+
+	public void setTelephon(String telephon) {
 		this.telephon = telephon;
 	}
-	public SimpleMessage getFax() {
+
+
+	public String getFax() {
 		return fax;
 	}
-	public void setFax(SimpleMessage fax) {
+
+
+	public void setFax(String fax) {
 		this.fax = fax;
 	}
+	
+
 	@Override
 	public String toString() {
 		return "CompanyInfo [companyName=" + companyName + ", owner=" + owner + ", foundationDate=" + foundationDate
