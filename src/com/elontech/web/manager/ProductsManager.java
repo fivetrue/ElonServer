@@ -46,9 +46,9 @@ public class ProductsManager extends DatabaseManagerImpl<Products>{
 	@Override
 	public Products getDefaultData(){
 		Products products = new Products();
-		products.setTitle("보유 기술");
+		products.setTitle("주요제품소개");
 		products.setDescription("");
-		products.setProductsLink("http://naver.com");
+		products.setProductsLink("https://s3-ap-northeast-1.amazonaws.com/fivetrue-drip/%5B%E1%84%8B%E1%85%A6%E1%86%AF%E1%84%85%E1%85%A9%E1%86%AB%E1%84%90%E1%85%A6%E1%86%A8%5D%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%AD%E1%84%8C%E1%85%A6%E1%84%91%E1%85%AE%E1%86%B7%E1%84%89%E1%85%A9%E1%84%80%E1%85%A2%E1%84%89%E1%85%A5+2016%E1%84%82%E1%85%A7%E1%86%AB.pdf");
 		products.setProductsLinkName("DETAIL");
 		return products;
 	}
