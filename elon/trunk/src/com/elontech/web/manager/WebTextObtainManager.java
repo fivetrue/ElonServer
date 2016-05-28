@@ -1,17 +1,11 @@
 package com.elontech.web.manager;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.elontech.web.entry.CompanyInfo;
 import com.elontech.web.entry.Header;
 import com.elontech.web.entry.IntroMain;
 import com.elontech.web.entry.Introduce;
 import com.elontech.web.entry.Products;
 import com.elontech.web.entry.Skills;
-import com.elontech.web.entry.TopContents;
-import com.elontech.web.vo.MainMessage;
-import com.elontech.web.vo.SimpleMessage;
 
 public class WebTextObtainManager {
 	

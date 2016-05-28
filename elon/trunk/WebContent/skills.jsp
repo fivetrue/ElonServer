@@ -52,10 +52,10 @@
 								%>
 
 							</ul>
-							<a href=<%out.print(skills.getSkillLink());%>
+							<%-- <a href=<%out.print(skills.getSkillLink());%>
 								class="btn btn-ghost btn-accent btn-small"> <%
  	out.print(skills.getSkillLinkName());
- %></a>
+ %></a> --%>
 						</div>
 					</div>
 				</div>

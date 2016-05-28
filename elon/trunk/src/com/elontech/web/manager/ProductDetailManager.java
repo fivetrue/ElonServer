@@ -63,9 +63,9 @@ public class ProductDetailManager extends DatabaseManagerImpl<ProductDetail>{
 		details.add(new ProductDetail("LED HEAT CHECKER CONTROLLER", "엘론의 독자적인 Speed 머신기술을 체택하여 제작되었으며" 
 				+ "귀사 제품의 불량률 감소 및 검사시간 단축, 제품의 신뢰성을 높여드리는 엘론의 핵심 제품입니다.", null, null));
 		
-		details.add(new ProductDetail("LED LIGHT", null, null, null));
+		details.add(new ProductDetail("LED LIGHT", "", null, null));
 		
-		details.add(new ProductDetail("LED LIGHT CONTROLLER", null, null, null));
+		details.add(new ProductDetail("LED LIGHT CONTROLLER", "", null, null));
 		
 		details.add(new ProductDetail("MOTOR", "STM17 Series / " 
 		+ "STM23 Series / "

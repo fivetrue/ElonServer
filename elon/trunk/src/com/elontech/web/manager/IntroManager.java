@@ -47,7 +47,7 @@ public class IntroManager extends DatabaseManagerImpl<IntroMain>{
 		IntroMain intro = new IntroMain();
 		intro.setIntroTitle("(주)엘론텍");
 		intro.setIntroMessage("고객이 필요한 제품을 만드는 기업");
-		intro.setIntroLink("http://naver.com");
+		intro.setIntroLink("https://s3-ap-northeast-1.amazonaws.com/fivetrue-drip/ELON+LIGHTING+SOLUTION_2016.pdf");
 		intro.setIntroLinkName("카탈로그 다운로드");
 		return intro;
 	}

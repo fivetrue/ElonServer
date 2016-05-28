@@ -58,7 +58,8 @@ public class IntroduceManager extends DatabaseManagerImpl<Introduce>{
 				+ "감사합니다.");
 		introduce.setIntroduceDate("2016.05");
 		introduce.setIntroduceAuthor("엘론텍 대표 이현대");
-		introduce.setIntroduceImageUrl("img/pcb_image.jpg");
+		introduce.setIntroduceImageUrl("https://s3-ap-northeast-1.amazonaws.com/fivetrue-drip/1459698384777.jpg");
+//		introduce.setIntroduceImageUrl("/img/lamp_small.png");
 		introduce.setIntroduceImageUrlName("company");
 		return introduce;
 	}
