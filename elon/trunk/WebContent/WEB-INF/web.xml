@@ -136,9 +136,19 @@
 		<jsp-file>/index.jsp</jsp-file>
 	</servlet>
 	
+	<servlet>
+		<servlet-name>admin</servlet-name>
+		<jsp-file>/admin/adminIndex.jsp</jsp-file>
+	</servlet>
+	
 	<servlet-mapping>
 		<servlet-name>index</servlet-name>
 		<url-pattern>/home</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>admin</servlet-name>
+		<url-pattern>/admin</url-pattern>
 	</servlet-mapping>
 	
 	<!-- 설정 -->
