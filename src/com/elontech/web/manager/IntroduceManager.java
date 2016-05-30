@@ -46,7 +46,7 @@ public class IntroduceManager extends DatabaseManagerImpl<Introduce>{
 		Introduce introduce = new Introduce();
 		introduce.setIntroduceTitle("회사 연혁");
 		introduce.setIntroduceMessage("꿈의 직장을 만들겠다는 작은 꿈을 펼칠 수 있게 도와 주신 직원들과 지인들께 감사의 말을 전합니다.");
-		introduce.setIntroduceContent("엘론은 지엘은 2008년 8월 19일 회사를 설립한 이후 비젼검사시스템에 "
+		introduce.setIntroduceContent("엘론은 2008년 8월 19일 회사를 설립한 이후 비젼검사시스템에 "
 				+ "필요한 조명과 조명컨트롤러를 개발하였으며 표준화 보다는 고객이 원하는 제품을 만드는“고객중심 서비스”를 추구하였습니다. "
 				+ "이를 토대로 현재는 제품을 표준화 하여 홈페이지를 통해 고객에 더 빨리 다가가고자 합니다. 또한 LED 검사공정 중 "
 				+ "고온을 가하여 점등 여부를 검사하는 LED Heat Checker를 개발하여 LED를 PCB에 조립하는 과정에서 나오는 "

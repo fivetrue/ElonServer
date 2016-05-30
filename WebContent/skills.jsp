@@ -61,7 +61,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="macbook-wrap wp3"></div>
+		<div class="macbook-ability-wrap wp3"></div>
 		<div class="responsive-feature-img">
 			<img src=<%out.print(skills.getSkillMainImageUrl());%>
 				alt="responsive devices">

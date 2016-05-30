@@ -136,8 +136,8 @@
 `
 <div class="device-showcase">
 	<div class="devices">
-		<div class="lampsmall-wrap wp1"></div>
-		<div class="lamplarge-wrap wp2"></div>
+		<div class="ipad-wrap wp1"></div>
+		<div class="iphone-wrap wp2"></div>
 	</div>
 </div>
 </section>

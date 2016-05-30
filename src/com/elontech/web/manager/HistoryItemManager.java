@@ -54,7 +54,7 @@ public class HistoryItemManager extends DatabaseManagerImpl<HistoryItem>{
 		histories.add(new HistoryItem("2010년 05월", "스크라버 모니터링 시스템 개발 (M사)"));
 		histories.add(new HistoryItem("2010년 06월", "LED 히트 체커기 개발 (H사)"));
 		histories.add(new HistoryItem("2010년 07월", "조명/조명컨트롤러 대리점 확보 (I사,J사)"));
-		histories.add(new HistoryItem("2010년 07월", "스팟 용접기 개발 (Y사)ß"));
+		histories.add(new HistoryItem("2010년 07월", "스팟 용접기 개발 (Y사)"));
 		histories.add(new HistoryItem("2010년 10월", "콜리메이터 인터페이스 컨트롤러 개발 (의료기기,D사)"));
 		histories.add(new HistoryItem("2011년 04월", "맘모 컨트롤러 개발 (의료기기,V사)"));
 		histories.add(new HistoryItem("2011년 05월", "TF Vision System 개발 (D사)"));

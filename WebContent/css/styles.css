@@ -784,33 +784,32 @@ Features-stack
 }
 
 .features .lampsmall-wrap {
-	width: 304px;
-	height: 620px;
-	background: url("../img/lamp_small.png") no-repeat center center;
+	width: 500px;
+	height: 1200px;
+	background: url("../img/lamp-small1.png") no-repeat center center;
 	position: absolute;
 	left: 530px;
-	bottom: 129px;
 	z-index: 3;
 }
 
 .features .lamplarge-wrap {
 	width: 706px;
 	height: 1002px;
-	background: url("../img/lamp_large.png") no-repeat center center;
+	background: url("../img/lamp-large1.png") no-repeat center center;
 	z-index: 2;
 }
 
 .features .ipad-wrap {
 	width: 706px;
 	height: 1002px;
-	background: url("../img/ipad-device.png") no-repeat center center;
+	background: url("../img/ipad-device-elon.png") no-repeat center center;
 	z-index: 2;
 }
 
 .features .iphone-wrap {
 	width: 304px;
 	height: 620px;
-	background: url("../img/iphone6.png") no-repeat center center;
+	background: url("../img/iphone6-elon.png") no-repeat center center;
 	position: absolute;
 	left: 530px;
 	bottom: 129px;
@@ -854,6 +853,26 @@ Features-stack
 	width: 916px;
 	height: 540px;
 	background: url("../img/macbook-pro.png") no-repeat center center;
+	top: 114px;
+	z-index: 4;
+	left: 50%;
+}
+
+.features-extra .macbook-ability-wrap {
+	position: absolute;
+	width: 916px;
+	height: 540px;
+	background: url("../img/macbook-abilities.png") no-repeat center center;
+	top: 114px;
+	z-index: 4;
+	left: 50%;
+}
+
+.features-extra .macbook-product-wrap {
+	position: absolute;
+	width: 916px;
+	height: 540px;
+	background: url("../img/macbook-product.png") no-repeat center center;
 	top: 114px;
 	z-index: 4;
 	left: 50%;
