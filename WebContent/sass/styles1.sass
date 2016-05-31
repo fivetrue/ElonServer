@@ -466,7 +466,7 @@ px
  
 }
 to {
-	-webkit-transform: translate(-50%, 0);
+	-webkit-transfhorm: translate(-50%, 0);
 	transform: translate(-50%, 0);
 }
 
@@ -776,11 +776,34 @@ Features-stack
 	border-bottom: none;
 }
 
+.features .pcb-wrap {
+	width: 500px;
+	height: 700px;
+	background: url("../img/pcb_image.jpg") no-repeat center center;
+	z-index: 1;
+}
+
+.features .lampsmall-wrap {
+	width: 500px;
+	height: 1200px;
+	background: url("../img/lamp-small1.png") no-repeat center center;
+	position: absolute;
+	left: 530px;
+	z-index: 3;
+}
+
+.features .lamplarge-wrap {
+	width: 706px;
+	height: 1002px;
+	background: url("../img/lamp-large1.png") no-repeat center center;
+	z-index: 2;
+}
+
 .features .ipad-wrap {
 	width: 706px;
 	height: 1002px;
 	background: url("../img/ipad-device-elon.png") no-repeat center center;
-	z-index: 1;
+	z-index: 2;
 }
 
 .features .iphone-wrap {
@@ -790,13 +813,18 @@ Features-stack
 	position: absolute;
 	left: 530px;
 	bottom: 129px;
-	z-index: 2;
+	z-index: 3;
 }
 
 .features .device-showcase {
 	position: absolute;
 	bottom: -365px;
 	right: 61%;
+}
+
+.features .device-showcase-intro {
+	position: absolute;
+	right: auto;
 }
 
 .features .responsive-feature-img, .features-extra .responsive-feature-img
@@ -822,31 +850,31 @@ Features-stack
 
 .features-extra .macbook-wrap {
 	position: absolute;
+    width: 916px;
+    height: 540px;
+    background: url("../img/macbook-pro.png") no-repeat center center;
+    top: 114px;
+    z-index: 4;
+    left: 50%;
+}
+
+.features-extra .ability-wrap {
+	position: absolute;
 	width: 916px;
 	height: 540px;
-	background: url("../img/macbook-pro.png") no-repeat center center;
+	background: url("../img/macbook-abilities.png") no-repeat center center;
 	top: 114px;
 	z-index: 4;
 	left: 50%;
 }
 
- .features-extra .ability-wrap {
-	position: absolute;
-	width: 922px;
-	height: 573px;
-	background: url("../img/macbook-abilities.png") no-repeat center center;
-	top: 114px;
-	z-index: 5;
-	left: 50%;
-}
-
 .features-extra .product-wrap {
 	position: absolute;
-	width: 922px;
-	height: 573px;
+	width: 916px;
+	height: 540px;
 	background: url("../img/macbook-product.png") no-repeat center center;
 	top: 114px;
-	z-index: 3;
+	z-index: 4;
 	left: 50%;
 }
 

@@ -45,11 +45,12 @@
  	out.print(products.getProductsLinkName());
  %></a>
 	</div>
-	<div class="macbook-product-wrap wp3"></div>
+	
 	<div class="responsive-feature-img">
 		<img src=<%out.print(products.getProductImageUrl());%>
 			alt=<%out.print(products.getProductImageUrlName());%>>
 	</div>
+	<div class="product-wrap wp3"></div>
 </section>
 
 
