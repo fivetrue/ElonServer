@@ -49,7 +49,7 @@ public class SkillsManager extends DatabaseManagerImpl<Skills>{
 		skill.setSkillLink("http://naver.com");
 		skill.setSkillLinkName("More");
 		skill.setSkillMainImageName("Skill");
-		skill.setSkillMainImageUrl("https://s3-ap-northeast-1.amazonaws.com/fivetrue-drip/IMG_20160425_202605.jpg");
+		skill.setSkillMainImageUrl("img/macbook-abilities.png");
 		return skill;
 	}
 

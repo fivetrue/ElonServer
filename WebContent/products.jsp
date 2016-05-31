@@ -37,18 +37,19 @@
 				</p>
 			</div>
 		</div>
-
 		<%
 			}
 		%>
-
 		<a href=<%out.print(products.getProductsLink());%>
 			class="btn btn-ghost btn-accent btn-small"> <%
  	out.print(products.getProductsLinkName());
  %></a>
 	</div>
 	<div class="macbook-product-wrap wp3"></div>
-	<%-- <div class="col-md-5 responsive-feature-img">
-		<img src=<%out.print(introContents.getIntroducResponsiveImage().getImageUrl());%> alt=<%out.print(introContents.getIntroducResponsiveImage().getName());%>>
-	</div> --%>
+	<div class="responsive-feature-img">
+		<img src=<%out.print(products.getProductImageUrl());%>
+			alt=<%out.print(products.getProductImageUrlName());%>>
+	</div>
 </section>
+
+
