@@ -62,9 +62,10 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="macbook-ability-wrap wp3"></div>
-        <div class="responsive-feature-img">
+		
+		<div class="responsive-feature-img">
 		<img src="<%out.print(skills.getSkillMainImageUrl()); %>" alt="<%out.print(skills.getSkillMainImageName()); %>">
+	</div>
+	<div class="ability-wrap wp3"></div>
 	</div>
 </section>
