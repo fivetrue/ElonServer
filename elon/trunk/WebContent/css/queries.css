@@ -167,7 +167,7 @@
 		padding-bottom: 0;
 	}
 	.features .device-showcase, .features .device-showcase-intro,
-		.features-extra .macbook-wrap {
+		.features-extra .macbook-wrap .macbook-ability-wrap .macbook-product-wrap {
 		display: none;
 	}
 	.features .responsive-feature-img, .features-extra .responsive-feature-img

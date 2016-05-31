@@ -67,7 +67,6 @@
 	<a href="#"><i class="fa fa-angle-down"></i></a>
 </div>
 </section>
-</section>
 
 <section class="features section-padding" id="introduce">
 <div class="container">
@@ -133,7 +132,7 @@
 		</div>
 	</div>
 </div>
-`
+
 <div class="device-showcase">
 	<div class="devices">
 		<div class="ipad-wrap wp1"></div>

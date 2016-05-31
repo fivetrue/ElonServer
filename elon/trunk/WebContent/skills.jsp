@@ -9,6 +9,7 @@
 	Skills skills = WebTextObtainManager.getInstance().getSkills();
 %>
 <section class="features-extra section-padding" id="skills">
+<!-- <section class="features-extra section-padding" id="skills"> -->
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5">
@@ -38,12 +39,12 @@
 												<%
 													out.print(detail.getSkillName());
 												%>
-												</h4>
-													<p>
-														<%
+											</h4>
+											<p>
+												<%
 															out.print(detail.getSkillDescription());
 														%>
-													</p>
+											</p>
 										</div>
 									</div>
 								</li>
@@ -61,9 +62,9 @@
 				</div>
 			</div>
 		</div>
+
 		<div class="macbook-ability-wrap wp3"></div>
-		<div class="responsive-feature-img">
-			<img src=<%out.print(skills.getSkillMainImageUrl());%>
-				alt="responsive devices">
-		</div>
+        <div class="responsive-feature-img">
+		<img src="<%out.print(skills.getSkillMainImageUrl()); %>" alt="<%out.print(skills.getSkillMainImageName()); %>">
+	</div>
 </section>

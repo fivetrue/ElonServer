@@ -11,6 +11,8 @@ public class Products extends DatabaseObject {
 	private String description = null;
 	private String productsLink = null;
 	private String productsLinkName = null;
+	private String productImageUrl = null;
+	private String productImageUrlName = null;
 	
 	@MemberVariable
 	private ArrayList<ProductDetail> productDetails = null;
@@ -54,11 +56,30 @@ public class Products extends DatabaseObject {
 	public void setProductDetails(ArrayList<ProductDetail> productDetails) {
 		this.productDetails = productDetails;
 	}
+	
+	
+
+	public String getProductImageUrl() {
+		return productImageUrl;
+	}
+
+	public void setProductImageUrl(String productImageUrl) {
+		this.productImageUrl = productImageUrl;
+	}
+
+	public String getProductImageUrlName() {
+		return productImageUrlName;
+	}
+
+	public void setProductImageUrlName(String productImageUrlName) {
+		this.productImageUrlName = productImageUrlName;
+	}
 
 	@Override
 	public String toString() {
 		return "Products [title=" + title + ", description=" + description + ", productsLink=" + productsLink
-				+ ", productsLinkName=" + productsLinkName + ", productDetails=" + productDetails + "]";
+				+ ", productsLinkName=" + productsLinkName + ", productImageUrl=" + productImageUrl
+				+ ", productImageUrlName=" + productImageUrlName + ", productDetails=" + productDetails + "]";
 	}
 	
 }
